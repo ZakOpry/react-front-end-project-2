@@ -52,7 +52,6 @@
 
 .cardTitlesDiv{
     width: 90%;
-    /* background-color: royalblue; */
     height: 70px;
     text-align: center;
     border-bottom: solid rgb(68, 68, 68) 1px;
@@ -119,6 +118,28 @@
 }
 
 .seeMoreButton:active {
+    height: 30px;
+    width: 85px;
+    font-size: 15px;
+}
+
+.removeButton{ 
+ width: 95px;
+    margin-left: 5px;
+    background-color: rgb(39,42,53);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 17px;
+}
+
+.removeButton:hover{
+    background-color: rgba(251, 122, 0, 0.979);  
+}
+
+.removeButton:active {
     height: 30px;
     width: 85px;
     font-size: 15px;
