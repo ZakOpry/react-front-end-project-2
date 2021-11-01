@@ -25,3 +25,7 @@ You can also select the "Remove" button to delete the specific card from the fav
 YouBrew is also mobile responsive. I've used several media queries and flexbox wraps to ensure the site looks good on big and small screens alike.
 The nav bar will be rerendered at a set screen width to turn into a "hamburger" style nav bar which makes it easier for viewing 
 on smaller screen sizes. 
+
+
+## Medium Article
+https://medium.com/@zakopry/youbrew-e57eba4e2208
