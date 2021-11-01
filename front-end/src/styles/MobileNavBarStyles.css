@@ -1,0 +1,72 @@
+.mainMobileNavBarDiv{
+    background-color: rgb(39,42,53);
+    height: 75px;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   position: fixed;
+}
+
+.brewedUp h1{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.brewedUp{
+    justify-self: flex-start;
+    margin-right: auto;
+    margin-left: 15px;
+ }
+
+ .menuDiv{
+     height: 100%;
+     /* background-color: red; */
+     width: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 5px;
+ }
+
+ .menuDiv:hover{
+     background-color: rgb(81, 82, 87);
+ }
+
+ .menuIcon{
+     color: white;
+     font-size: 28px;
+ }
+
+ .dropDown{
+     height: auto;
+     width: 100%;
+     background-color: rgb(39,42,53);
+     position: fixed;
+     margin-top: 75.3px;
+     border-top: solid 1px rgb(194, 194, 194);
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ }
+
+ .navBarButton{
+     width: 100%;
+     text-align: center;
+ }
+
+ .navBarButton h3{
+     margin: 5px;
+ }
+
+ #dropDownRecipes{
+     border-top: solid .5px whitesmoke;
+ }
+
+ #dropDownFavorites{
+     border-top: whitesmoke solid .5px;
+ }
+
+ #dropDownAbout { 
+     border-top: whitesmoke solid .5px;
+ }

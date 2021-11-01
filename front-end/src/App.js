@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Recipes from './components/Recipes';
 import TopNavBar from './components/TopNavBar';
 import About from './components/About';
+import MobileNavBar from './components/MobileNavBar';
+import Media from 'react-media'
 
 
 function App() {
@@ -13,8 +15,14 @@ function App() {
     <Router>
       <Switch>
     <>
-     <TopNavBar/>
 
+    <Media query="(min-width: 639px)">
+      {matches => {
+        return matches ? <TopNavBar/> : <MobileNavBar/>
+      }}
+      </Media>
+     {/* <TopNavBar/> */}
+     {/* <MobileNavBar/> */}
      <Route exact path='/'>
      <Home/>
      </Route>
