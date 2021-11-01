@@ -162,6 +162,15 @@
     overflow-y: scroll;
 }
 
+@media screen and (max-width : 637px){
+    .additionalDetailsDiv{
+        width: 75%;
+        left: 12%;
+        top: 15%
+
+    }
+}
+
 
 
 .additionalPageTitle h1{
