@@ -3,7 +3,7 @@ import '../styles/FavoritesPageStyles.css'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import FavoriteCardsAdditional from './FavoriteCardsAdditional'
-import { favoritePageSetting } from '../functions/generalFunctions'
+import { DeleteFavorite } from '../redux/action-types/ActionTypes'
 
 export default function FavoritesCards(props) {
     const [additionalDets, setAdditionalDets] = useState(false)
@@ -18,7 +18,7 @@ export default function FavoritesCards(props) {
             <div className="discription"><p>{props.cards.description}</p></div>
             <div className="cardButtonsDiv">
             <button className="seeMoreButton" onClick={()=>setAdditionalDets(true)}>See More</button>
-            <button className="removeButton" onClick={()=>{dispatch({type: "DELETE_FAVORITE", payload: props.cards})}}>Remove</button>
+            <button className="removeButton" onClick={()=>{dispatch({type: DeleteFavorite, payload: props.cards})}}>Remove</button>
             </div>
             </div>
 

@@ -3,6 +3,7 @@ import {  useDispatch } from 'react-redux'
 import '../styles/RecipesStyles.css'
 import { useState } from 'react'
 import RecipeCardAdditionalDetails from './RecipeCardAdditionalDetails'
+import { SetFavorite } from '../redux/action-types/ActionTypes'
 
 export default function RecipeCards(props) {
 
@@ -20,7 +21,7 @@ export default function RecipeCards(props) {
             <div className="cardImgDiv"><img src={props.beers.image_url} alt="beers"/></div>
             <div className="discription"><p>{props.beers.description}</p></div>
             <div className="cardButtonsDiv">
-            <button className="cardSaveButton" onClick={()=> dispatch({type: 'SET_FAVORITE', payload: props.beers})}>Save</button>
+            <button className="cardSaveButton" onClick={()=> dispatch({type: SetFavorite, payload: props.beers})}>Save</button>
             <button className="seeMoreButton" onClick={()=>setAdditionalDets(true)}>See More</button>
             </div>
             

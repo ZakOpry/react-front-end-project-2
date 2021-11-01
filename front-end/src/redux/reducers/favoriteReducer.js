@@ -1,3 +1,5 @@
+import { SetFavorite, DeleteFavorite } from "../action-types/ActionTypes";
+
 const initialState = {
     favorite: []
 }
@@ -6,10 +8,10 @@ function favoriteReducer (state=initialState, action) {
     switch (action.type) {
         
         
-        case "SET_FAVORITE":
+        case SetFavorite:
             return {  favorite: [...state.favorite, action.payload]}
             
-        case "DELETE_FAVORITE":
+        case DeleteFavorite:
             return { favorite: [...state.favorite.filter(favs => favs !== action.payload) ]}
             
         

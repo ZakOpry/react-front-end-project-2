@@ -6,7 +6,11 @@ import { getData } from '../functions/generalFunctions'
 import RecipeCards from './RecipeCards'
 
 
+
+
 export default function RecipeMiddlePage() {
+
+    
     const dispatch = useDispatch()
 
     useEffect(() => {
@@ -25,6 +29,9 @@ export default function RecipeMiddlePage() {
 
         {initialBeerCards && initialBeerCards.beerData.map((beers) => <RecipeCards beers={beers}></RecipeCards>)}
             
+        
+
+
         </div>
     )
 }

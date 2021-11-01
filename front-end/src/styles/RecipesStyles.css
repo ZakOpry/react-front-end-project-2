@@ -79,7 +79,7 @@
 }
 
 .discription p {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 5px;
 }
 
@@ -95,7 +95,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .cardSaveButton{

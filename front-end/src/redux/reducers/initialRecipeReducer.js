@@ -1,3 +1,5 @@
+import { SetInitalBeerData } from "../action-types/ActionTypes";
+
 const initialState = {
     beerData: []
 }
@@ -5,7 +7,7 @@ const initialState = {
 function initialRecipeReducer (state=initialState, action) {
     switch (action.type) {
         
-        case "SET_INITIAL_BEER_DATA":
+        case SetInitalBeerData:
             return  [{beerData: action.payload}]
 
         

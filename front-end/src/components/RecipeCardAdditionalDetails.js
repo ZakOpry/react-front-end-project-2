@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/RecipesStyles.css"
 import { useDispatch } from 'react-redux'
+import { SetFavorite } from '../redux/action-types/ActionTypes'
 
 export default function RecipeCardAdditionalDetails(props) {
     const setAdditionalDets = props.setAdditionalDets
@@ -35,7 +36,7 @@ export default function RecipeCardAdditionalDetails(props) {
             </div>
             <div className="backButtonDiv">
                 <button className="backButton" onClick={()=>setAdditionalDets(false)}>Back</button>
-                <button className="saveButton" onClick={()=> dispatch({type: 'SET_FAVORITE', payload: props.beers})}>Save</button>
+                <button className="saveButton" onClick={()=> dispatch({type: SetFavorite, payload: props.beers})}>Save</button>
             </div>
         </div>
     )

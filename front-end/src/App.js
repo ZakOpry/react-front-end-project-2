@@ -21,8 +21,7 @@ function App() {
         return matches ? <TopNavBar/> : <MobileNavBar/>
       }}
       </Media>
-     {/* <TopNavBar/> */}
-     {/* <MobileNavBar/> */}
+     
      <Route exact path='/'>
      <Home/>
      </Route>
