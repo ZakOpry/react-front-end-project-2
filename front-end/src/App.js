@@ -15,7 +15,7 @@ function App() {
     <>
      <TopNavBar/>
 
-     <Route exact path='/'>
+     <Route exact path='/react-front-end-project-2'>
      <Home/>
      </Route>
 
