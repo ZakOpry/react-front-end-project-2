@@ -14,7 +14,6 @@ export default function FavoritesMiddlePage() {
 
         useEffect(() => {
             favoritePageSetting(setTrueOrFalse, cardData)
-            console.log(trueOrFalse)
         }, [favoritePageSetting])
 
         

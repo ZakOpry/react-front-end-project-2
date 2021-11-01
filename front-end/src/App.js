@@ -21,7 +21,7 @@ function App() {
         return matches ? <TopNavBar/> : <MobileNavBar/>
       }}
       </Media>
-     
+    <Switch> 
      <Route exact path='/'>
      <Home/>
      </Route>
@@ -37,6 +37,11 @@ function App() {
      <Route path = '/about'>
      <About/>
      </Route>
+
+     <Route path = "*">
+       <h1>Error</h1>
+     </Route>
+      </Switch>
 
     </>
     </Switch>
