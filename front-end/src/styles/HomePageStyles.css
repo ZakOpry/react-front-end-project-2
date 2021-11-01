@@ -1,0 +1,41 @@
+.homePageMainDiv{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UpperHomePagePicDiv{
+    width: 100%;
+    height: 423px;
+    /* margin-top: 73px; */
+    display: flex;
+    justify-content: center;
+}
+
+.UpperHomePagePicDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* ============================
+for main middle page content
+============================ */
+
+.mainMiddleHomePageContent{
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.welcome{
+    font-size: 60px;
+    margin-bottom: 10px;
+}

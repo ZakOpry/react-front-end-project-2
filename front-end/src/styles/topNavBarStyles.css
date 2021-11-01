@@ -1,0 +1,54 @@
+.topNavBarMainDiv{
+    background-color: rgb(39,42,53);
+    height: 75px;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   /* position: fixed; */
+}
+
+.navBarButton{
+    height: 100%;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15px; */
+    text-decoration: none;
+   
+}
+
+#brewedUp h1{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.navBarButton h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+#brewedUp{
+justify-self: flex-start;
+margin-right: auto;
+margin-left: 15px;
+   
+   
+}
+
+#about{
+    margin-right: 20px;
+}
+
+.navBarButton:hover{
+    background-color: rgba(251, 122, 0, 0.979);
+}
+
+.link{
+    text-decoration: none;
+}

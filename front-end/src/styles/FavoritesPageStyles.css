@@ -1,0 +1,125 @@
+
+.favoritesPageMainDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.upperFavPagePicDiv{
+    width: 100%;
+    height: 423px;
+    
+}
+
+.upperFavPagePicDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.favoritesMiddlePageDiv{
+    width: 100%;
+    min-height: 100vh; 
+    background-color: rgb(14, 17, 61);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.noFavoritesAdded{
+    color: whitesmoke;
+}
+
+/* ================================== */
+/* for individual favorite cards */
+/* ================================== */
+
+.recipeCardsMainDiv{
+    background-color: rgb(236, 236, 236);
+    width: 390px;
+    margin: 10px;
+    height: 675px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* border: rgb(174, 174, 174) solid 2px; */
+   
+}
+
+.cardTitlesDiv{
+    width: 90%;
+    /* background-color: royalblue; */
+    height: 70px;
+    text-align: center;
+    border-bottom: solid rgb(68, 68, 68) 1px;
+}
+
+.cardImgDiv{
+    height: 35%;
+    margin-top: 20px;
+}
+
+.recipeCardsMainDiv h2{
+    margin: 10px
+}
+
+.recipeCardsMainDiv img{
+    height: 100%;
+    
+}
+
+.cardButtonsDiv{
+    justify-self: flex-end;
+
+}
+
+.discription{
+    height: 250px;
+}
+
+.discription p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tagLine{
+    width: 100%;
+    height: 50px;
+    margin-left: 7px;
+    text-align: center;
+}
+
+.cardButtonsDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+
+.seeMoreButton{
+    width: 95px;
+    margin-left: 5px;
+    background-color: rgb(39,42,53);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 17px;
+}
+
+.seeMoreButton:hover{
+    background-color: rgba(251, 122, 0, 0.979);  
+}
+
+.seeMoreButton:active {
+    height: 30px;
+    width: 85px;
+    font-size: 15px;
+}

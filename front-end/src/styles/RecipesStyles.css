@@ -1,0 +1,314 @@
+.recipePageMainDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.UpperRecipePicDiv{
+    width: 100%;
+    height: 423px;
+    /* margin-top: 73px; */
+    
+    
+}
+
+.UpperRecipePicDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    object-position:50% 70%;
+    
+}
+
+
+.recipeMiddlePageMaindiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(43, 41, 65); */
+    background-color: rgb(14, 17, 61);
+    
+}
+  /* ========================================== */
+/* --Below is for individual recipe cards-- */
+  /* ========================================== */
+
+.recipeCardsMainDiv{
+    background-color: rgb(236, 236, 236);
+    width: 390px;
+    margin: 10px;
+    height: 675px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* border: rgb(174, 174, 174) solid 2px; */
+   
+}
+
+.cardTitlesDiv{
+    width: 90%;
+    /* background-color: royalblue; */
+    height: 70px;
+    text-align: center;
+    border-bottom: solid rgb(68, 68, 68) 1px;
+}
+
+.cardImgDiv{
+    height: 35%;
+    margin-top: 20px;
+}
+
+.recipeCardsMainDiv h2{
+    margin: 10px
+}
+
+.recipeCardsMainDiv img{
+    height: 100%;
+    
+}
+
+.cardButtonsDiv{
+    justify-self: flex-end;
+
+}
+
+.discription{
+    height: 250px;
+}
+
+.discription p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tagLine{
+    width: 100%;
+    height: 50px;
+    margin-left: 7px;
+    text-align: center;
+}
+
+.cardButtonsDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.cardSaveButton{
+    width: 95px;
+    margin-right: 5px;
+    background-color: rgb(39,42,53);
+    color: white;
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 17px;
+}
+
+.cardSaveButton:hover{
+    background-color: rgba(251, 122, 0, 0.979);  
+}
+
+.cardSaveButton:active {
+    height: 30px;
+    width: 85px;
+    font-size: 15px;
+}
+
+.seeMoreButton{
+    width: 95px;
+    margin-left: 5px;
+    background-color: rgb(39,42,53);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 17px;
+}
+
+.seeMoreButton:hover{
+    background-color: rgba(251, 122, 0, 0.979);  
+}
+
+.seeMoreButton:active {
+    height: 30px;
+    width: 85px;
+    font-size: 15px;
+}
+
+  /* ================================================================================= */
+/* -- below is for addtional details cards after pressing button on recipe cards-- */
+  /* ================================================================================= */
+
+.additionalDetailsDiv{
+    position: fixed;
+    top: 10%;
+    left:27%;
+    height: 550px;
+    width: 45%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: solid 2px rgb(187, 187, 187);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.additionalPageTitle h1{
+    margin-left: 8px;
+}
+
+.additionalPageTitle{
+width: 100%;
+border-bottom: solid 1px black;
+
+}
+
+.infoPointsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: black 1px solid;
+   
+}
+
+.ingredientsMainDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.ingredients{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    border-bottom: black solid 1px;
+    padding-bottom: 3px;
+    
+}
+.ingredients h2 {
+    margin: 5px;
+}
+
+.hopsDiv h3{
+    margin: 5px;
+}
+
+.hopsDiv p {
+    margin: 5px;
+}
+.hopsDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.maltsDiv h3{
+    margin: 5px;
+}
+
+.maltsDiv p {
+    margin: 5px;
+}
+.maltsDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InstructionsHeaderDiv{
+    width: 100%;
+    text-align: center;
+    border-top: solid black 1px;
+    border-bottom: black solid 1px;
+}
+
+.InstructionsHeaderDiv h2{
+    margin: 5px;
+}
+
+.instructionsBodyDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.instructionsBodyDiv p {
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.backButtonDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.backButton{
+    width: 90px;
+    margin-right: 5px;
+    background-color: rgb(3, 64, 143);
+    color: white;
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 17px;
+}
+
+.backButton:hover{
+    background-color: rgba(251, 122, 0, 0.979);  
+}
+
+.backButton:active {
+    height: 30px;
+    width: 85px;
+    font-size: 15px;
+}
+
+.saveButton{
+    width: 90px;
+    margin-left: 5px;
+    background-color: rgb(3, 64, 143);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 17px;
+}
+
+.saveButton:hover{
+    background-color: rgba(251, 122, 0, 0.979);  
+}
+
+.saveButton:active {
+    height: 30px;
+    width: 85px;
+    font-size: 15px;
+}
+
+
