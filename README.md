@@ -29,3 +29,6 @@ on smaller screen sizes.
 
 ## Medium Article
 https://medium.com/@zakopry/youbrew-e57eba4e2208
+
+## GitHub Pages
+https://zakopry.github.io/react-front-end-project-2/#/
